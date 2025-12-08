@@ -1,7 +1,7 @@
 {
   "portal": {
     "id": "manhattan",
-    "placeName": "NAME OF PLACE",
+    "placeName": "NODA CHARLOTTE",
     "locationLabel": "Manhattan",
     "logoUrl": "https://example.com/assets/the-most-logo.png",
 
@@ -9,7 +9,7 @@
       "slides": [
         {
           "imageUrl": "https://example.com/images/hero-1.jpg",
-          "headline": "Welcome to NAME OF PLACE",
+          "headline": "Welcome to NODA CHARLOTTE",
           "subheadline": "Discover local food, events, and more."
         },
         {
