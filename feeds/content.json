@@ -1,21 +1,26 @@
 {
   "portal": {
-    "id": "manhattan",
+    "id": "charlotte",
     "placeName": "NODA CHARLOTTE",
-    "locationLabel": "Manhattan",
+    "locationLabel": "NoDa",
     "logoUrl": "https://example.com/assets/the-most-logo.png",
 
     "hero": {
       "slides": [
         {
-          "imageUrl": "https://example.com/images/hero-1.jpg",
+          "imageUrl": "pkg:/images/hero_charlotte_1.png",
           "headline": "Welcome to NODA CHARLOTTE",
           "subheadline": "Discover local food, events, and more."
         },
         {
-          "imageUrl": "https://example.com/images/hero-2.jpg",
-          "headline": "Your guide to the city",
-          "subheadline": "Exclusive deals and attractions."
+          "imageUrl": "pkg:/images/hero_charlotte_2.png",
+          "headline": "Your guide to NoDa",
+          "subheadline": "Local favorites, art, and nightlife."
+        },
+        {
+          "imageUrl": "pkg:/images/hero_charlotte_3.png",
+          "headline": "Eat, explore, stay awhile",
+          "subheadline": "Neighborhood gems curated for you."
         }
       ],
       "currentWeather": {
@@ -99,76 +104,183 @@
         "title": "FOOD",
         "cards": [
           {
-            "id": "food-1",
-            "title": "Business Name Placeholder",
+            "id": "haberdish",
+            "title": "Haberdish",
             "category": "Food",
-            "imageUrl": "https://example.com/images/food-1.jpg",
-            "logoUrl": "https://example.com/images/logo-placeholder.png",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/haberdish.jpg",
+            "logoUrl": "",
             "discount": {
-              "label": "50% Off",
+              "label": "Featured",
               "visible": true,
               "backgroundColor": "#FF2B2B"
             },
-            "address": "Address goes here.",
-            "description": "Short description goes here.",
-            "qrCodeImageUrl": "https://example.com/qr/food-1.png"
+            "address": "NoDa, Charlotte, NC",
+            "description": "Southern comfort and cocktails.",
+            "qrCodeImageUrl": ""
           },
           {
-            "id": "food-2",
-            "title": "Business Name Placeholder",
+            "id": "cabo-fish-taco",
+            "title": "Cabo Fish Taco",
             "category": "Food",
-            "imageUrl": "https://example.com/images/food-2.jpg",
-            "logoUrl": "https://example.com/images/logo-placeholder.png",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/cabo-fish-taco.jpg",
+            "logoUrl": "",
             "discount": {
-              "label": "50% Off",
+              "label": "Featured",
               "visible": true,
               "backgroundColor": "#FF2B2B"
             },
-            "address": "Address goes here.",
-            "description": "Short description goes here.",
-            "qrCodeImageUrl": "https://example.com/qr/food-2.png"
+            "address": "NoDa, Charlotte, NC",
+            "description": "Baja style tacos and margaritas.",
+            "qrCodeImageUrl": ""
+          },
+          {
+            "id": "goodyear-house",
+            "title": "The Goodyear House",
+            "category": "Food",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/goodyear-house.jpg",
+            "logoUrl": "",
+            "discount": {
+              "label": "Featured",
+              "visible": true,
+              "backgroundColor": "#FF2B2B"
+            },
+            "address": "NoDa, Charlotte, NC",
+            "description": "Seasonal plates in a historic home.",
+            "qrCodeImageUrl": ""
+          },
+          {
+            "id": "jackbeagles",
+            "title": "JackBeagle's",
+            "category": "Food",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/jackbeagles.jpg",
+            "logoUrl": "",
+            "discount": {
+              "label": "Featured",
+              "visible": true,
+              "backgroundColor": "#FF2B2B"
+            },
+            "address": "NoDa, Charlotte, NC",
+            "description": "Neighborhood bites and late night energy.",
+            "qrCodeImageUrl": ""
+          },
+          {
+            "id": "crepe-cellar",
+            "title": "Crepe Cellar",
+            "category": "Food",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/crepe-cellar.jpg",
+            "logoUrl": "",
+            "discount": {
+              "label": "Featured",
+              "visible": true,
+              "backgroundColor": "#FF2B2B"
+            },
+            "address": "NoDa, Charlotte, NC",
+            "description": "Sweet and savory crepes plus brunch vibes.",
+            "qrCodeImageUrl": ""
+          },
+          {
+            "id": "amies-french-bakery",
+            "title": "Amelie's French Bakery",
+            "category": "Food",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/amelies.jpg",
+            "logoUrl": "",
+            "discount": {
+              "label": "Featured",
+              "visible": true,
+              "backgroundColor": "#FF2B2B"
+            },
+            "address": "NoDa, Charlotte, NC",
+            "description": "Pastries, coffee, and a cozy hangout.",
+            "qrCodeImageUrl": ""
           }
         ]
       },
+
       {
         "id": "night-life",
         "title": "NIGHT LIFE",
         "cards": [
           {
-            "id": "night-1",
-            "title": "Business Name Placeholder",
+            "id": "noda-brewing",
+            "title": "NoDa Brewing Company",
             "category": "Night Life",
-            "imageUrl": "https://example.com/images/night-1.jpg",
-            "logoUrl": "https://example.com/images/logo-placeholder.png",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/noda-brewing.jpg",
+            "logoUrl": "",
             "discount": {
-              "label": "50% Off",
+              "label": "Featured",
               "visible": true,
               "backgroundColor": "#FF2B2B"
             },
-            "address": "Address goes here.",
-            "description": "Short description goes here.",
-            "qrCodeImageUrl": "https://example.com/qr/night-1.png"
+            "address": "NoDa, Charlotte, NC",
+            "description": "Craft beer staple of the neighborhood.",
+            "qrCodeImageUrl": ""
+          },
+          {
+            "id": "salud-cerveceria",
+            "title": "Salud Cerveceria",
+            "category": "Night Life",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/salud.jpg",
+            "logoUrl": "",
+            "discount": {
+              "label": "Featured",
+              "visible": true,
+              "backgroundColor": "#FF2B2B"
+            },
+            "address": "NoDa, Charlotte, NC",
+            "description": "Beer, pizza, and bottle shop energy.",
+            "qrCodeImageUrl": ""
+          },
+          {
+            "id": "blind-pig",
+            "title": "The Blind Pig",
+            "category": "Night Life",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/blind-pig.jpg",
+            "logoUrl": "",
+            "discount": {
+              "label": "Featured",
+              "visible": true,
+              "backgroundColor": "#FF2B2B"
+            },
+            "address": "NoDa, Charlotte, NC",
+            "description": "Casual bar with a local crowd.",
+            "qrCodeImageUrl": ""
           }
         ]
       },
+
       {
         "id": "family-events",
         "title": "FAMILY EVENTS",
         "cards": [
           {
-            "id": "family-1",
-            "title": "Business Name Placeholder",
+            "id": "noda-neighborhood-events",
+            "title": "NoDa Community Events",
             "category": "Family Events",
-            "imageUrl": "https://example.com/images/family-1.jpg",
-            "logoUrl": "https://example.com/images/logo-placeholder.png",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/noda-events.jpg",
+            "logoUrl": "",
             "discount": {
-              "label": "50% Off",
-              "visible": false,
+              "label": "This Week",
+              "visible": true,
               "backgroundColor": "#FF2B2B"
             },
-            "address": "Address goes here.",
-            "description": "Short description goes here.",
-            "qrCodeImageUrl": "https://example.com/qr/family-1.png"
+            "address": "NoDa, Charlotte, NC",
+            "description": "Markets, art walks, seasonal pop ups.",
+            "qrCodeImageUrl": ""
+          },
+          {
+            "id": "noda-art-walk",
+            "title": "NoDa Gallery Crawl",
+            "category": "Family Events",
+            "imageUrl": "https://raw.githubusercontent.com/SGD-Universe/Roku-Learning/main/feeds/images/noda/gallery-crawl.jpg",
+            "logoUrl": "",
+            "discount": {
+              "label": "Featured",
+              "visible": true,
+              "backgroundColor": "#FF2B2B"
+            },
+            "address": "NoDa, Charlotte, NC",
+            "description": "Art, music, and neighborhood culture.",
+            "qrCodeImageUrl": ""
           }
         ]
       }
